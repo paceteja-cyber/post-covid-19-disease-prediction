@@ -66,7 +66,7 @@ def predict_symptoms(risk_percent):
 st.subheader("Enter Patient Details")
 
 age = st.slider("Age", 18, 90, 40)
-bmi = st.number_input("BMI", 10.0, 50.0, 25.0)
+bmi = st.number_input("BMI", 10.0, 100.0, 25.0)
 diabetes = st.selectbox("Diabetes", [0, 1])
 hypertension = st.selectbox("Hypertension", [0, 1])
 severe_case = st.selectbox("Initial COVID severity (Severe case)", [0, 1])
